@@ -1446,7 +1446,7 @@ a.link,a.link:hover {
 	margin-bottom: 16px;
 }
 
-.project .tags a {
+.project .tags a.tag {
 	position: relative;
 	margin-right: 10px;
 	padding: 0px 4px;
@@ -1464,7 +1464,7 @@ a.link,a.link:hover {
 	position: absolute;
 }
 
-.project a.site {
+.project a:not(.tag) {
 	padding: 1px 4px;
 	background-color: #b5edff;
 	border-radius: 4px;
