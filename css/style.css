@@ -1472,3 +1472,7 @@ a.link,a.link:hover {
 	text-shadow: none;
 	text-decoration: none;
 }
+
+.project ul.inside {
+	list-style-position: inside;
+}
